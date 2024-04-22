@@ -5,6 +5,14 @@ body {
   font-family: 'WavvePADO-Regular';
 }
 
+@media (max-width: 768px) {
+  body {
+    width: 412px;
+    margin: 0 auto;
+    font-family: 'WavvePADO-Regular';
+  }
+}
+
 @font-face {
   font-family: 'WavvePADO-Regular';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
@@ -23,8 +31,7 @@ body {
 
 @media (max-width: 768px) {
   .top-nav {
-    padding: 20px;
-    align-items: center;
+    padding: 20px 10px;
   }
 }
 
@@ -36,7 +43,7 @@ body {
 .hi {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: center;  
   gap: 48px;
 }
 
@@ -57,6 +64,25 @@ button {
   margin-right: 10px;
   outline: none;
   transition: all 0.3s ease;
+}
+
+.mobile-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hi {
+    display: none;
+  }
+
+  .mobile-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-button img {
+    align-self: center;
+    padding: 6px 12px;
+  }
 }
 
 .login-button {
