@@ -473,6 +473,8 @@ header h1 span {
     display: none;
   }
   .explore-p {
+    padding-left: 20px;
+    padding-right: 20px;
     display: block;
     font-size: 12px;
     font-weight: 100;
@@ -482,6 +484,8 @@ header h1 span {
     text-transform: uppercase;
   }
   .explore-text-mobile {
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,6 +529,7 @@ header h1 span {
     margin: 0px;
     max-width: 100%;
     height: auto;
+    padding-bottom: 64px;
   }
 }
 
@@ -574,6 +579,64 @@ header h1 span {
   justify-content: flex-start;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  #cowork-numbers {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+  }
+  .numbers {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 64px;
+  }
+  .numbers p {
+    margin: 0 auto;
+    font-family: Pretendard;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .numbers h1 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+  }
+  .numbers li {
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .numbers li p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .cowork-hi h1 {
+    margin: 0px;
+    margin-bottom: 8px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  #cowork-numbers img {
+    margin: 16px auto 64px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 /* ------- client ----- */
 
 #COWORK-IN-WORDS {
