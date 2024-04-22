@@ -218,3 +218,9 @@ header h1 span {
 }
 
 /* ---- footer ---- */
+footer {
+  gap: 32px;
+  justify-content: center;
+  padding: 64px;
+}
+
