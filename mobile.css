@@ -381,10 +381,15 @@ header h1 span {
   .cowork-img pre {
     margin-top: 8px;
     margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
   }
   .cowork-img p {
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 140%;
   }
   .cowork-img img {
     margin-bottom: 8px;
