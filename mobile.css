@@ -237,6 +237,32 @@ header h1 span {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .Trust {
+    width: 412px;
+  }
+  .Trust-text h2 {
+    margin: 0px;
+    padding-top: 48px;
+    color: #42446e;
+    padding-bottom: 24px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .Trust-img {
+    margin: 0px;
+    height: 35px;
+    margin-left: 20px;
+    padding-bottom: 48px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+}
+
 /* ------- Choose cowork----- */
 
 .choose-cowork {
