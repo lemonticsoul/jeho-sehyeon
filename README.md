@@ -9,7 +9,7 @@ cowoking 페이지 실습입니다!!
 
 ## Stack
 
-<img style="font-size=60px" src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img style="font-size=60px" src="https://img.shields.io/badge/css3-E34F26?style=for-the-badge&logo=css3&logoColor=blue">
+<img  src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img  src="https://img.shields.io/badge/css3-#1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img  src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 
 
 
