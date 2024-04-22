@@ -398,7 +398,7 @@ header h1 span {
 
 /* ------- Explore Cowork ----- */
 
-.Explore-cowork {
+#Explore-cowork {
   margin-top: 112px;
   margin-bottom: 80px;
   display: flex;
@@ -450,6 +450,84 @@ header h1 span {
   height: auto;
 }
 
+.explore-text-mobile {
+  display: none;
+}
+
+.explore-p {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #Explore-cowork {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    /* flexbox 사용 */
+    flex-direction: column;
+    justify-content: center;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+  }
+  .explore-text {
+    display: none;
+  }
+  .explore-p {
+    display: block;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .explore-text-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .explore-text-mobile h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0px;
+  }
+  .explore-text-mobile p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .explore-lens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .explore-lens img {
+    height: 33px;
+  }
+  .explore-button {
+    display: flex;
+    margin: 16px auto;
+    margin-bottom: 0px;
+  }
+  .explore-image {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* 작업중 */
+  .explore-image img {
+    position: static;
+    width: 0 auto;
+    height: 0 auto;
+  }
+}
 
 
 /* ------- cowork in numbers ----- */
