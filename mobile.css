@@ -658,6 +658,10 @@ header h1 span {
   justify-content: center;
 }
 
+.cowork-words-mobile {
+  display: none;
+}
+
 .client {
   margin-right:64px;
   margin-left:64px;
@@ -731,6 +735,93 @@ header h1 span {
   /* 인라인으로 표시 */
   margin-left: 8px;
   /* 이미지와의 간격 */
+}
+
+.client-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #COWORK-IN-WORDS {
+    margin: 64px 20px 64px 20px;
+  }
+  .word-text p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    text-align: center;
+  }
+  .word-text h2 {
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .cowork-words-mobile {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+  }
+  .cowork-words-mobile img {
+    width: 24px;
+    height: 20px;
+    padding: 6px 4px;
+  }
+  .client {
+    display: none;
+  }
+  .client-mobile {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .project-item {
+    border-radius: 24px;
+    padding: 32px;
+    width: 360px;
+  }
+  .project-content {
+    margin-top: 0px;
+    box-sizing: border-box;
+    /* 패딩과 보더가 너비에 포함되도록 */
+  }
+  .project-content img {
+    margin-bottom: 24px;
+    width: 56px;
+  }
+  .project-content p {
+    margin: 0px;
+    margin-bottom: 24px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .project-content .name {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .project-content .job {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
 }
 
 /* ------- Frequently asked questions ----- */
