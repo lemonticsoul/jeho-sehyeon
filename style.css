@@ -238,6 +238,55 @@ footer {
 
 .footer-cowork {
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32;
+}
+
+.footer-cowork h1 {
+  margin: 0px;
+  height: 24px;
+  position: static;
+}
+
+.footer-cowork-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-cowork-info input {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 12px;
+  background: rgb(29, 30, 28);
+  border-width: 0px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.footer-cowork-info input::placeholder {
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-cowork-info p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-email {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .footer-info {
