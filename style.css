@@ -285,18 +285,23 @@ footer {
 
 /* made by */
 .madeby {
+  height: 26px;
   display: flex;
   justify-content: space-between;
 }
 
 .rights-reserved {
-    font-size: 26px;
-    align-self: center;
+  font-size: 14px;
+  height: 26px;
+  font-weight: 400;
+  line-height: 150%;
+  align-self: center;
 }
 
 .madeby-policy {
-  font-size: 21px;
-  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
   display: flex;
   justify-content: space-between;
   gap: 24px;
