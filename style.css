@@ -224,3 +224,21 @@ footer {
   padding: 64px;
 }
 
+.madeby {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights-reserved {
+    font-size: 26px;
+    align-self: center;
+}
+
+.madeby-policy {
+  font-size: 21px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+}
