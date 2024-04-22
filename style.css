@@ -224,6 +224,33 @@ footer {
   padding: 64px;
 }
 
+/* footer-upper */
+.footer-upper {
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 48px;          /* 모서리 둥글게 */
+  background: rgb(29, 30, 28);/* 배경은 검정색 */
+  color: rgb(255, 255, 255);  /* 글자색 지정 */
+}
+
+.footer-cowork {
+
+}
+
+.footer-info {
+  display: flex;
+  gap: 40px;
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+}
+
+
+
+/* made by */
 .madeby {
   display: flex;
   justify-content: space-between;
