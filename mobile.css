@@ -521,11 +521,10 @@ header h1 span {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* 작업중 */
   .explore-image img {
-    position: static;
-    width: 0 auto;
-    height: 0 auto;
+    margin: 0px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
