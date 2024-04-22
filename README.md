@@ -1,10 +1,12 @@
 # jeho-sehyeon
-디지털 아카데미 반응형 웹 
 
-신한 투자증권 배포 진행하였습니다!
+신한 투자증권 프로 디지털 아카데미 반응형 웹 만들기
+
 ## 개요
-cowoking 페이지 실습입니다!!
-### 이미지 참고
+cowking 디자인 시안을 보면서 직접 css html 코딩한 거입니다!
+
+### 배포 이미지 참고
+
 ![image](https://github.com/lemonticsoul/jeho-sehyeon/assets/127959482/df8ed759-279c-4bf1-84e8-ecd969e1f0ee)
 
 ## Stack
