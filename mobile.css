@@ -265,7 +265,7 @@ header h1 span {
 
 /* ------- Choose cowork----- */
 
-.choose-cowork {
+#choose-cowork {
   margin-top: 112px;
   margin-bottom: 80px;
 }
@@ -281,6 +281,14 @@ header h1 span {
 .cowork-text h1 img {
   width: 180px;
   margin-right: 16px;
+}
+
+.cowork-text br {
+  display: none;
+}
+
+.cowork-text-mobile {
+  display: none;
 }
 
 .cowork-img {
@@ -327,6 +335,61 @@ header h1 span {
   align-items: center;
   text-align: center;
 
+}
+
+@media (max-width: 768px) {
+  #choose-cowork {
+    margin: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .cowork-text {
+    display: none;
+  }
+  .cowork-text-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .cowork-text-mobile h1 {
+    display: flex;
+    margin: 0px;
+    height: 33px;
+    font-size: 24px;
+    letter-spacing: 0%;
+    align-items: center;
+  }
+  .cowork-text-mobile h1 img {
+    width: 120px;
+    height: 34px;
+    margin-right: 0px;
+    margin: 0px 8px;
+  }
+  .cowork-img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    gap: 32px;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    list-style-type: none;
+  }
+  .cowork-img pre {
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  .cowork-img p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .cowork-img img {
+    margin-bottom: 8px;
+  }
 }
 
 /* ------- Explore Cowork ----- */
