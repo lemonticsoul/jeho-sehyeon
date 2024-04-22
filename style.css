@@ -290,22 +290,23 @@ footer {
   height: 26px;
   display: flex;
   justify-content: space-between;
-}
-
-.rights-reserved {
-  font-size: 14px;
-  height: 26px;
+  align-items: flex-start;
   font-weight: 400;
   line-height: 150%;
-  align-self: center;
+  font-size: 14px;
 }
 
 .madeby-policy {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
+  height: 21px;
+  padding-bottom: 5px;
+
   display: flex;
   justify-content: space-between;
-  gap: 24px;
   align-items: flex-start;
+  gap: 24px;
+  text-decoration-line: underline;
+}
+
+.madeby-policy p {
+  margin: 0px;
 }
