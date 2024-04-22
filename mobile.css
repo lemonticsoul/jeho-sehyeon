@@ -743,10 +743,11 @@ header h1 span {
 
 @media (max-width: 768px) {
   #COWORK-IN-WORDS {
-    margin: 64px 20px 64px 20px;
+    padding: 64px 20px 64px 20px;
+    margin: 0px;
   }
   .word-text p {
-    margin-top: 0px;
+    margin-top: 64px;
     margin-bottom: 16px;
     font-size: 12px;
     font-weight: 100;
@@ -844,6 +845,56 @@ header h1 span {
   font-size: 36px;
 }
 
+@media (max-width: 768px) {
+  #Frequently {
+    margin: 0px;
+    padding: 64px 20px 64px 20px;
+    flex-direction: column;
+  }
+  .fre-text .wrap {
+    margin: 0px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .fre-text h1 {
+    margin: 0px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .fre-text p {
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .questions p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0px;
+    padding: 20px 0px;
+  }
+  .questions hr {
+    margin: 0px;
+  }
+  .first-question {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .questions .answer {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+}
 
 /* ------- Seize ----- */
 
