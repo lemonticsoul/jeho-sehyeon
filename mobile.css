@@ -1,0 +1,715 @@
+body {
+
+  width: 1060px;
+  margin: 0 auto;
+  font-family: 'WavvePADO-Regular';
+}
+
+@font-face {
+  font-family: 'WavvePADO-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/WavvePADO-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.top-nav {
+
+  padding: 64px;
+  padding-bottom:0px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+.top-nav h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.hi {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+}
+
+.hi ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+
+}
+
+button {
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.signup-button {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ------- 헤더 -----  */
+
+header {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  padding-left: 64px;
+  padding-right: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+header img {
+  width: 550px;
+  height: 550px;
+  display: flex;
+  justify-content: row;
+  margin-bottom:122px;
+}
+
+header h1 {
+  color: black;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  /* 120.69% */
+  letter-spacing: -1px;
+}
+
+.claim-button {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+header h1 span {
+  /* 글씨에 그라데이션 주는 효과 */
+  background: linear-gradient(120deg, #13b0f5 -2.06%, #e35ef7 100%);
+  background-clip: text;
+  color: transparent;
+  /* 글자 색을 투명하게 */
+}
+
+/* ------- TRUSTED BY LEADING COMPANIES 섹션----- */
+
+.Trust {
+  width: 1440px;
+  padding-bottom: 80px;
+}
+
+.Trust-text h2 {
+  color: #42446e;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 24px;
+}
+
+.Trust-img {
+
+  display: flex;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 112px;
+  padding-bottom:80px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Trust-img img {
+
+  align-items: center;
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.Trust-img li {
+  text-align: center;
+}
+
+/* ------- Choose cowork----- */
+
+.choose-cowork {
+  margin-top: 112px;
+  margin-bottom: 80px;
+}
+
+.cowork-text h1 {
+
+  color: black;
+  text-align: center;
+  font-size: 58px;
+  padding-bottom: 24px;
+}
+
+.cowork-text h1 img {
+  width: 180px;
+  margin-right: 16px;
+}
+
+.cowork-img {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 80px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 112px;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+.cowork-img pre {
+  font-family: 'SDSamliphopangche_Outline';;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom:112px;
+}
+
+.cowork-img p {
+  
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cowork-img img {
+  width: 36px;
+  height: 36px;
+
+
+}
+
+.cowork-img li {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* ------- Explore Cowork ----- */
+
+.Explore-cowork {
+  margin-top: 112px;
+  margin-bottom: 80px;
+  display: flex;
+  /* flexbox 사용 */
+  justify-content: center;
+  /* 가로 중앙 정렬 */
+  align-items: center;/
+}
+
+.explore-button {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 24px auto;
+}
+
+
+.explore-text p {
+  color: #403f3f;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+
+.explore-text h1 {
+  margin-top: 0px;
+  color: black;
+  text-align: center;
+  font-size: 58px;
+  padding-bottom: 8px;
+}
+
+.explore-text h1 img {
+  width: 180px;
+  margin-right: 16px;
+}
+
+.explore-image img {
+  margin-top: 80px;
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 112px;
+  padding-bottom:112px;
+  display: flex;
+  justify-content: center;
+  width: 932px;
+  height: auto;
+}
+
+
+
+/* ------- cowork in numbers ----- */
+
+#cowork-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cowork-numbers img {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 112px;
+  margin-left:64px;
+  margin-right:64px;
+}
+
+.numbers {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.numbers h1 {
+  margin-top: 40px;
+  font-size: 48px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.numbers li {
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+}
+.numbers li p {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+}
+.numbers ul{
+  padding-left:0;
+}
+.cowork-hi{
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+/* ------- client ----- */
+
+#COWORK-IN-WORDS {
+  margin-bottom: 112px;
+}
+
+.word-text p {
+  margin-top: 112px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.word-text h2 {
+  margin-top: 0px;
+  font-size: 58px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.client {
+  margin-right:64px;
+  margin-left:64px;
+  margin-bottom: 112px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  /* 요소 간의 간격을 설정합니다 */
+  justify-content: center;
+  /* 가운데 정렬 */
+  align-items: flex-start;
+  /* 상단 정렬 */
+}
+
+.project-item {
+
+  border-radius: 8px;
+  /* 모서리 둥글게 */
+  padding: 16px;
+  /* 내부 패딩 */
+  width: calc(33.333% - 24px);
+  /* 3개의 항목이 한 줄에 들어가도록 너비 설정 */
+  box-sizing: border-box;
+  /* 패딩과 보더가 너비에 포함되도록 */
+}
+
+
+.project-content {
+  margin-top: 8px;
+}
+
+.project-content img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 56px;
+  /* 이미지를 컨텐츠 너비에 맞춤 */
+  height: auto;
+  /* 이미지 높이 자동 조정 */
+
+}
+
+.project-content p {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+.project-content .name {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+}
+
+.project-content .job {
+  font-size: 0.9em;
+  /* 직업 설명은 작게 */
+}
+
+.project-link img {
+  width: 24px;
+  /* 링크 이미지 너비 */
+  height: auto;
+  /* 링크 이미지 높이 */
+}
+
+.project-link div {
+  display: inline;
+  /* 인라인으로 표시 */
+  margin-left: 8px;
+  /* 이미지와의 간격 */
+}
+
+/* ------- Frequently asked questions ----- */
+
+#Frequently {
+  margin-top: 122px;
+  margin-left:64px;
+  margin-right:64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fre-text .wrap {
+  font-size: 10px;
+  color: #666;
+
+}
+
+.fre-text h1 {
+  font-size: 36px;
+}
+
+
+/* ------- Seize ----- */
+
+.seize-text {
+  margin-top: 112px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.seize-text h1 {
+  font-size: 76px;
+}
+
+.seize-text p {
+  margin-top: -24px;
+  margin-bottom: 40px;
+}
+
+.seize-text h1 img {
+  width: 240px;
+}
+
+#seize button {
+
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 112px;
+}
+
+/* ---- Insights, ---- */
+
+#Insights {
+  margin-left:64px;
+  margin-right:64px;
+}
+.section-text .cowork22 {
+  font-size: 10px;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  margin-bottom:-20px;
+  padding-top:112px;
+}
+
+.section-text h2 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.section-text h2 img {
+  height: 50px;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.section-text p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-direction: row;
+}
+
+.caption img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.tech-hi {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.trending {
+  background-color: #13b0f5;
+  border: none;
+
+}
+
+.productivity {
+  background-color: #e35ef7;
+  border: none;
+}
+
+.talk {
+  background-color: yellowgreen;
+  border: none;
+}
+
+.View {
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  margin: 0 auto;
+  
+  
+}
+
+
+
+.read {
+  margin-bottom: 80px;
+}
+
+/* ---- footer ---- */
+footer {
+  margin-top:112px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  padding: 64px;
+}
+
+/* footer-upper */
+.footer-upper {
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 48px;          /* 모서리 둥글게 */
+  background: rgb(29, 30, 28);/* 배경은 검정색 */
+  color: rgb(255, 255, 255);  /* 글자색 지정 */
+}
+
+.footer-cowork {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32;
+}
+
+.footer-cowork h1 {
+  margin: 0px;
+  height: 24px;
+  position: static;
+}
+
+.footer-cowork-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-cowork-info input {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 12px;
+  background: rgb(29, 30, 28);
+  border-width: 0px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.footer-cowork-info input::placeholder {
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-cowork-info p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-email {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-info {
+  padding-left: 128px;
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px; 
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 16px;
+}
+
+.footer-tag {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  height: 18px;
+  text-transform: uppercase;
+}
+
+.info-content ul {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+.info-content ul li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 0px;
+  height: 26px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+
+
+/* made by */
+.madeby {
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 14px;
+}
+
+.madeby-policy {
+  height: 21px;
+  padding-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  text-decoration-line: underline;
+}
+
+.madeby-policy p {
+  margin: 0px;
+}
