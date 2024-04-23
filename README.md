@@ -31,6 +31,10 @@ cowking 디자인 시안을 보면서 직접 css html 코딩한 거입니다!
 
 ![image](https://github.com/lemonticsoul/jeho-sehyeon/assets/127959482/cd0bd9c1-2ee6-4e63-ba30-a3dab6d26b81)
 
+## Workflow
+
+![제목 없는 다이어그램 drawio (2)](https://github.com/lemonticsoul/jeho-sehyeon/assets/127959482/170deb91-33e1-4aec-b2dd-8e63b4aeef23)
+
 
 ## 배포 주소
 
