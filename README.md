@@ -5,9 +5,14 @@
 ## 개요
 cowking 디자인 시안을 보면서 직접 css html 코딩한 거입니다!
 
-### 배포 이미지 참고
+### 배포 이미지 참고(웹)
 
 ![image](https://github.com/lemonticsoul/jeho-sehyeon/assets/127959482/df8ed759-279c-4bf1-84e8-ecd969e1f0ee)
+
+### 배포 이미지 참고(앱)
+
+![image](https://github.com/lemonticsoul/jeho-sehyeon/assets/127959482/175644ff-2212-4358-96fc-3ac82311ea5e)
+
 
 ## Stack
 
