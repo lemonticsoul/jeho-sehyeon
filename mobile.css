@@ -76,6 +76,7 @@ button {
   }
 
   .mobile-button {
+    padding: 12px 24px;
     display: flex;
     justify-content: space-between;
   }
@@ -919,6 +920,10 @@ header h1 span {
   width: 240px;
 }
 
+.seize-text-mobile {
+  display: none;
+}
+
 #seize button {
 
   display: flex;
@@ -929,6 +934,54 @@ header h1 span {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 112px;
 }
+
+@media (max-width: 768px) {
+  #seize {
+    padding: 64px 20px;
+  }
+  .seize-text {
+    display: none;
+  }
+  .seize-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seize-mobile div {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .seize-mobile h1 {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .seize-mobile img {
+    width: 160px;
+    height: 58px;
+  }
+  .seize-mobile p {
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .seize-mobile-h1 {
+    height: 58px;
+  }
+  #seize button {
+    margin: 40px auto;
+    margin-bottom: 0px;
+  }
+}
+
 
 /* ---- Insights, ---- */
 
