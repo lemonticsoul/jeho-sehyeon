@@ -983,90 +983,313 @@ header h1 span {
 }
 
 
-/* ---- Insights, ---- */
-
-#Insights {
-  margin-left:64px;
-  margin-right:64px;
-}
-.section-text .cowork22 {
-  font-size: 10px;
-  color: #666;
+/* ------- 프로젝트 섹션 ----- */
+#insights {
+  padding: 112px 64px;
   display: flex;
-  justify-content: center;
-  margin-bottom:-20px;
-  padding-top:112px;
-}
-
-.section-text h2 {
-  font-size: 48px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-
-.section-text h2 img {
-  height: 50px;
+  flex-direction: column;
   align-items: center;
-  margin-right: 12px;
 }
 
-.section-text p {
+.insights-upper {
+  display: flex;
+  padding-bottom: 80px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.insights-upper p {
+  margin: 0px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.insights-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.insights-big {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.insights-big div {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-bottom: 80px;
+  gap: 12px;
 }
 
-.feature {
+.insights-big p {
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.insights-big img {
+  border-radius: 48px;
+  background: url(),url();
+}
+
+.insights-long {
+  width: 520px;
+  height: 51px;
+  padding-top: 24px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* insights-bottom */
+.insights-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.insights-items {
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  flex-direction: row;
 }
 
-.caption img {
-  width: 250px;
-  height: auto;
-  margin-bottom: 24px;
-}
-
-.tech-hi {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-.trending {
-  background-color: #13b0f5;
-  border: none;
-
-}
-
-.productivity {
-  background-color: #e35ef7;
-  border: none;
-}
-
-.talk {
-  background-color: yellowgreen;
-  border: none;
-}
-
-.View {
+.insights-item {
   display: flex;
-  background-color: #fff;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article-img {
+  border-radius: 24px;
+  background: url();
+}
+
+.article-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.article-head p {
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+}
+
+.article-class {
+  display: flex;
+  padding: 0px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.article-class .p1 {
+  height: 21px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 4px 8px 4px 8px;
+  margin: 0px;
+
+  border-radius: 8px;
+}
+
+.first {
+  background: rgb(166, 232, 246);
+}
+
+.second {
+  background: rgb(252, 190, 220);
+}
+
+.third {
+  background: rgb(211, 249, 133);
+}
+
+.article-class .p2 {
+  height: 26px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;  
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+}
+
+.read-more {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.read-more p {
+  height: 21px; 
+  margin: 0px;
+  color: rgb(29, 30, 28);
+  font-family: Pretendard;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.read-more img {
+  width: 24px;
+  height: 24px;
+}
+
+.insights-bottom button {
+  margin-top: 64px;
+}
+
+/* ---- footer ---- */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   justify-content: center;
-  margin: 0 auto;
-  
-  
+  padding: 64px;
 }
 
-
-
-.read {
-  margin-bottom: 80px;
+/* footer-upper */
+.footer-upper {
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 48px;          /* 모서리 둥글게 */
+  background: rgb(29, 30, 28);/* 배경은 검정색 */
+  color: rgb(255, 255, 255);  /* 글자색 지정 */
 }
+
+.footer-cowork {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32;
+}
+
+.footer-cowork h1 {
+  margin: 0px;
+  height: 24px;
+  position: static;
+}
+
+.footer-cowork-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-cowork-info input {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 12px;
+  background: rgb(29, 30, 28);
+  border-width: 0px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.footer-cowork-info input::placeholder {
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-cowork-info p {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-email {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-info {
+  padding-left: 128px;
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px; 
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 16px;
+}
+
+.footer-tag {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 150%;
+  letter-spacing: 0%;
+  height: 18px;
+  text-transform: uppercase;
+}
+
+.info-content ul {
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+.info-content ul li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 0px;
+  height: 26px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  letter-spacing: 0%;
+}
+
 
 /* ---- footer ---- */
 footer {
