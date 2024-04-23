@@ -983,7 +983,7 @@ header h1 span {
 }
 
 
-/* ------- 프로젝트 섹션 ----- */
+/* ------- insights ----- */
 #insights {
   padding: 112px 64px;
   display: flex;
@@ -1057,6 +1057,50 @@ header h1 span {
   line-height: 180%;
   letter-spacing: 0%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #insights {
+    padding: 64px 20px;
+  }
+  .insights-upper {
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+    gap: 0px;
+  }
+  .insights-upper p {
+    margin-bottom: 16px;
+  }
+  .insights-text {
+    gap: 24px;
+  }
+  .insights-text p {
+    padding-top: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .insights-big {
+    gap: 0px;
+  }
+  .insights-big div {
+    height: 33px;
+    gap: 8px;
+  }
+  
+  .insights-big p {
+    height: 33px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .insights-big img {
+    max-height: 100%;
+    border-radius: 48px;
+    background: url(),url();
+  }
 }
 
 /* insights-bottom */
