@@ -1304,6 +1304,7 @@ footer {
 }
 
 .footer-email {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -1351,7 +1352,7 @@ footer {
   font-weight: 400;
   line-height: 180%;
   letter-spacing: 0%;
-}  
+}
   
 .footer-cowork-info input::placeholder {
   height: 21px;
@@ -1369,7 +1370,7 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-    max-width: 412px;
+    width: 372px;
     padding: 32px 20px;
   }
   .footer-upper {
@@ -1395,6 +1396,7 @@ footer {
     gap: 0px;
   }
   .footer-email input {
+    box-sizing: border-box;
     padding: 12px;
     height: 21px;
     border-width: 0px;
@@ -1408,11 +1410,27 @@ footer {
   .footer-info {
     padding-left: 0px;
     display: flex;
-    gap: 80px;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 24px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px; 
+  }
+  .info-content {
+    text-align: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .info-content p {
+    font-size: 12px;
+    margin: 0px;
+    font-weight: 200;
+    margin-bottom: 8px;
+    opacity: 0.8;
+  }
+  .info-content ul li {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
@@ -1440,4 +1458,13 @@ footer {
 
 .madeby-policy p {
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .madeby {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+  }
 }
