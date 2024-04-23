@@ -67,6 +67,7 @@ button {
 }
 
 .mobile-button {
+  background-color: #000;
   display: none;
 }
 
@@ -201,7 +202,7 @@ header h1 span {
 /* ------- TRUSTED BY LEADING COMPANIES 섹션----- */
 
 .Trust {
-  width: 1440px;
+  width: 768px;
   padding-bottom: 80px;
 }
 
@@ -215,8 +216,8 @@ header h1 span {
 .Trust-img {
 
   display: flex;
-  margin-left: 64px;
-  margin-right: 64px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 112px;
   padding-bottom:80px;
   flex-wrap: wrap;
@@ -256,8 +257,9 @@ header h1 span {
     margin: 0px;
     height: 35px;
     margin-left: 20px;
-    padding-bottom: 48px;
-    flex-wrap: nowrap;
+    margin-bottom:50px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     gap: 24px;
@@ -1061,6 +1063,9 @@ header h1 span {
 @media (max-width: 768px) {
   #insights {
     padding: 64px 20px;
+  }
+  .section-text h2 img {
+    width:80px;
   }
   .insights-upper {
     margin-bottom: 40px;
