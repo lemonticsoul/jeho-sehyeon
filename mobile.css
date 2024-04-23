@@ -1271,11 +1271,12 @@ footer {
 
 .footer-cowork-info {
   display: flex;
+  width: 100%;
   flex-direction: column;
   gap: 24px;
 }
 
-.footer-cowork-info input {
+.footer-email input {
   color: rgb(255, 255, 255);
   width: 100%;
   padding: 12px;
@@ -1350,126 +1351,70 @@ footer {
   font-weight: 400;
   line-height: 180%;
   letter-spacing: 0%;
-}
-
-
-/* ---- footer ---- */
-footer {
-  margin-top:112px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  justify-content: center;
-  padding: 64px;
-}
-
-/* footer-upper */
-.footer-upper {
-  padding: 48px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 48px;          /* 모서리 둥글게 */
-  background: rgb(29, 30, 28);/* 배경은 검정색 */
-  color: rgb(255, 255, 255);  /* 글자색 지정 */
-}
-
-.footer-cowork {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 32;
-}
-
-.footer-cowork h1 {
-  margin: 0px;
-  height: 24px;
-  position: static;
-}
-
-.footer-cowork-info {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.footer-cowork-info input {
-  color: rgb(255, 255, 255);
-  width: 100%;
-  padding: 12px;
-  background: rgb(29, 30, 28);
-  border-width: 0px;
-  border-bottom: 1px solid rgb(255, 255, 255);
-}
-
+}  
+  
 .footer-cowork-info input::placeholder {
   height: 21px;
+  max-width: 100%;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
   text-align: left;
 }
-
+  
 .footer-cowork-info p {
-  margin: 0px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 180%;
-  letter-spacing: 0%;
-  text-align: left;
+  text-align: center;
 }
 
-.footer-email {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
+@media (max-width: 768px) {
+  footer {
+    max-width: 412px;
+    padding: 32px 20px;
+  }
+  .footer-upper {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .footer-cowork {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  .footer-cowork h1 {
+    margin-bottom: 32px;
+    position: static;
+  }
+  .footer-email {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .footer-email input {
+    padding: 12px;
+    height: 21px;
+    border-width: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .subscribe-button {
+    padding: 12px 24px;
+    margin-top: 16px;
+    margin-right: 0px;
+  }
+  .footer-info {
+    padding-left: 0px;
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px; 
+  }
 }
-
-.footer-info {
-  padding-left: 128px;
-  display: flex;
-  gap: 80px;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0px; 
-}
-
-.info-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 16px;
-}
-
-.footer-tag {
-  font-size: 12px;
-  font-weight: 100;
-  line-height: 150%;
-  letter-spacing: 0%;
-  height: 18px;
-  text-transform: uppercase;
-}
-
-.info-content ul {
-  padding-inline-start: 0px;
-  margin: 0px;
-}
-
-.info-content ul li {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  padding-left: 0px;
-  height: 26px;
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 180%;
-  letter-spacing: 0%;
-}
-
 
 /* made by */
 .madeby {
