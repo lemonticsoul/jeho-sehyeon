@@ -1047,7 +1047,6 @@ header h1 span {
 }
 
 .insights-long {
-  width: 520px;
   height: 51px;
   padding-top: 24px;
   color: rgb(29, 30, 28);
@@ -1087,7 +1086,6 @@ header h1 span {
     height: 33px;
     gap: 8px;
   }
-  
   .insights-big p {
     height: 33px;
     font-size: 24px;
@@ -1216,6 +1214,26 @@ header h1 span {
 
 .insights-bottom button {
   margin-top: 64px;
+}
+
+@media (max-width: 768px) {
+  .insights-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .insights-items {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+  }  
+  .article-img {
+    max-width: 100%;
+  }
+  .insights-bottom button {
+    margin-top: 24px;
+    margin-right: 0px;
+  }
 }
 
 /* ---- footer ---- */
